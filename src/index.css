@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/plus-jakarta-sans-v11-latin-regular.woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/assets/fonts/plus-jakarta-sans-v11-latin-700.woff2');
+}
+
+
+/*      ---------- Login-bg ----------     */
+.login-bg{
+  background-image: url("./assets/images/Login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*      ---------- Login inputs ----------      */
+.blur-input{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.05); /* Semi-transparent */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 4px 20px rgba(255, 255, 255, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+.blur-input::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+}
+.blur-input:focus{
+  box-shadow: 0 0 4px 2px rgba(147, 139, 255, 0.6);
+}
