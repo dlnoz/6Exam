@@ -1,0 +1,19 @@
+.navbar-line{
+	width: 234px;
+	border: 1px solid;
+	border-image-source: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%);
+}
+
+.active{
+	background-color: #1A1F37;
+	color: white;
+}
+.active::before{
+  content: "";
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  background-color: #DDE2FF;
+  left: 0;
+  top: 0;
+}

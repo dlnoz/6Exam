@@ -1,3 +1,5 @@
 import Login from "./Auth/Login";
+import Register from './Auth/Register';
+import Dashboard from './Dashboard/Dashboard';
 
-export {Login}  
+export {Login, Register, Dashboard}  

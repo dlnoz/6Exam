@@ -7,7 +7,7 @@
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../src/assets/fonts/plus-jakarta-sans-v11-latin-regular.woff2'); 
+  src: url('../src//assets//fonts/plus-jakarta-sans-v11-latin-regular.woff2'); 
 }
 
 @font-face {
@@ -27,6 +27,10 @@
   background-position: center;
 }
 
+.bg-header{
+  backdrop-filter: blur(42px);
+  border: 2px solid #ffffff52;
+}
 
 /*      ---------- Login inputs ----------      */
 .blur-input{
@@ -47,4 +51,12 @@
 }
 .blur-input:focus{
   box-shadow: 0 0 4px 2px rgba(147, 139, 255, 0.6);
+}
+
+
+.register-bg{
+  background-image: url("./assets/images/Register.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
